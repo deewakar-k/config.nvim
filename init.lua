@@ -67,10 +67,10 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 
 -- tabs
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
-vim.bo.softtabstop = 2
+vim.bo.softtabstop = 4
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
@@ -516,7 +516,6 @@ require('lazy').setup({
           },
         },
       }
-
       -- Ensure the servers and tools above are installed
       --  To check the current status of installed tools and/or manually install
       --  other tools, you can run
