@@ -44,7 +44,7 @@ return {
       require('vague').setup {
         -- optional configuration here
       }
-      --      vim.cmd.colorscheme 'vague'
+      vim.cmd.colorscheme 'vague'
     end,
   },
 
@@ -58,7 +58,7 @@ return {
         style = 'roseprime',
         transparent = true,
       }
-      require('neomodern').load()
+      --   require('neomodern').load()
     end,
   },
 }

@@ -538,6 +538,8 @@ require('lazy').setup({
         'emmet-language-server',
         'html',
         'cssls',
+        'typescript-language-server',
+        'tailwindcss-language-server',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
